@@ -1,0 +1,9 @@
+<!-- _Links.cshtml -->
+@model string
+
+<!-- Create partial below -->
+@if(ViewData["Title"] == "Home") {
+  <a href="https://www.linkedin.com/in/@Model">LinkedIn Profile</a>
+} else if (ViewData["Title"] == "Projects") {
+  <a href="http://www.github.com/@Model">Github Profile</a>
+}
